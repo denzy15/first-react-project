@@ -1,0 +1,22 @@
+.posts {
+   /*border-radius: 20px;
+   border: 1px solid #f7F3f5;
+   overflow: hidden;*/
+   font-size: 16px;
+}
+
+.newPost{
+   resize: none;
+   border: 1px solid #000;
+   border-radius: 5px;
+   background-color: #fff;
+   margin: 0px 0px 10px 0px;
+   width: 100%;
+   min-height: 100px;
+}
+.addPost{
+   border-radius: 8px;
+   background-color: #687477;
+   text-transform: uppercase;
+   padding: 5px 10px;
+}

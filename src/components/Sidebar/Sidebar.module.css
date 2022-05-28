@@ -1,0 +1,32 @@
+.sidebar {
+   /*grid-area: side;*/
+   background-color: #e2c2b3;
+   align-self: start;
+   border-radius: 10px;
+}
+
+.list{
+   list-style: none;
+}
+
+.list a{
+   text-decoration: none;
+   color: #000;
+}
+.list a.active{
+   border: 1px solid rgba(0, 0, 0, 0.3 );
+   padding: 5px;
+   border-radius: 5px;
+}
+.list a.active:hover{
+   text-decoration: none;
+}
+
+.list a:hover {
+   text-decoration: underline;
+}
+
+.list li:not(:last-child) {
+   margin: 0px 0px 10px 0px;
+}
+

@@ -1,0 +1,25 @@
+.song{
+	background-color: #403234;
+	border-radius: 10px;
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+	border: 2px solid #000;
+	display: flex;
+	padding: 5px;
+	color: #f7F3f5;
+}
+.name{
+	font-size: 14px;
+}
+.duration{
+	font-size: 10px;
+	margin: 0px 0px 0px 5px;
+}
+.play{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background-color: #f7F3f5;
+	cursor: pointer;
+	margin: 0px 10px 0px 0px;
+}

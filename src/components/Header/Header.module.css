@@ -1,0 +1,35 @@
+.header {
+  background-color: #727272;
+  margin: 0px 0px 10px 0px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  transform: scale(0.7);
+}
+
+.logo {
+  display: inline-block;
+  border-radius: 50%;
+  flex: 0 1 44px;
+  max-width: 44px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+.header a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
