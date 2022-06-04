@@ -3,6 +3,7 @@ import Header from "./components/Header/Header"
 import Profile from "./components/Profile/Profile"
 import Sidebar from "./components/Sidebar/Sidebar"
 import Music from "./components/Music/Music"
+import UsersContainer from './components/Users/UsersContainer'
 import Settings from "./components/Settings/Setting"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import DialogsContainer from "./components/Dialogs/DialogsContainer"
@@ -18,6 +19,7 @@ function App(props) {
             <Routes>
               <Route path="/profile" element={ <Profile />}  />
               <Route path="/dialogs/*" element={<DialogsContainer />} />
+              <Route path="/users" element={<UsersContainer />} />
               <Route path="/music" element={<Music />} />
               <Route path="/settings" element={<Settings />} />
             </Routes>
