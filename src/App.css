@@ -8,6 +8,7 @@
   color: #585f61;
   padding: 15px;
   border-radius: 10px;
+  max-width: 100%;
 }
 
 .container {

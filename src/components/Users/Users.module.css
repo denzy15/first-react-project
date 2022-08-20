@@ -18,6 +18,10 @@
 .fullName{
 	margin: 0px 0px 0px 0px;
 }
+.fullName a{
+	color: #000;
+	text-decoration: none;
+}
 
 .location{
 	font-size: 15px;
